@@ -1,5 +1,6 @@
 {
   "name": "root",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "typecheck": "lerna run typecheck --parallel --no-bail --stream",
