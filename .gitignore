@@ -14,7 +14,6 @@ coverage/
 *.zip
 *.xpi
 
-dist/
 www/
 loader/
 
