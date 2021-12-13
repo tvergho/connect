@@ -33,7 +33,7 @@ log.txt
 .versions/
 
 $RECYCLE.BIN/
-
+dist/
 
 Thumbs.db
 UserInterfaceState.xcuserstate
