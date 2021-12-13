@@ -1,5 +1,5 @@
 {
-  "name": "@stacks/connect",
+  "name": "tvergho/connect",
   "version": "6.2.0",
   "scripts": {
     "prepare": "npm run build",
