@@ -2,6 +2,7 @@
   "name": "@stacks/connect",
   "version": "6.2.0",
   "scripts": {
+    "prepare": "npm run build",
     "build": "rimraf dist && concurrently 'yarn build:modules' 'yarn build:standalone'",
     "build:modules": "concurrently 'tsdx build --tsconfig tsconfig.json' 'yarn types'",
     "build:standalone": "NODE_ENV=production webpack --config webpack.config.js --mode=production",
