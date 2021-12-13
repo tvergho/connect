@@ -1,5 +1,5 @@
-import { asyncToGenerator as _asyncToGenerator, objectWithoutPropertiesLoose as _objectWithoutPropertiesLoose, extends as _extends } from '../_virtual/_rollupPluginBabelHelpers.js';
-import _regeneratorRuntime from 'regenerator-runtime';
+import { asyncToGenerator as _asyncToGenerator, objectWithoutPropertiesLoose as _objectWithoutPropertiesLoose, extends as _extends } from '../../_virtual/_rollupPluginBabelHelpers.js';
+import _regeneratorRuntime from '../../node_modules/regenerator-runtime/runtime.esm.js';
 import { AppConfig, UserSession } from '@stacks/auth';
 import { SECP256K1Client, TokenSigner } from 'jsontokens';
 import { getStacksProvider } from '../utils.esm.js';

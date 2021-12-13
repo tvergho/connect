@@ -1,5 +1,5 @@
-import { asyncToGenerator as _asyncToGenerator } from './_virtual/_rollupPluginBabelHelpers.js';
-import _regeneratorRuntime from 'regenerator-runtime';
+import { asyncToGenerator as _asyncToGenerator } from '../_virtual/_rollupPluginBabelHelpers.js';
+import _regeneratorRuntime from '../node_modules/regenerator-runtime/runtime.esm.js';
 import { AppConfig, UserSession } from '@stacks/auth';
 import { decodeToken } from 'jsontokens';
 import { getStacksProvider } from './utils.esm.js';
